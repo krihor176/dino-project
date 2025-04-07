@@ -34,7 +34,7 @@ add_action("wp_enqueue_scripts", "Dino_theme");
 add_action('wp_enqueue_scripts', 'enqueue_aos_scripts'); 
 
 
-function Dino-theme_remove_gutenberg() {
+function Dino_theme_remove_gutenberg() {
     remove_post_type_support("post", "editor");
     remove_post_type_support("page", "editor");
 }
