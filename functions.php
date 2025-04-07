@@ -29,8 +29,7 @@ function dino_theme_disable_gutenberg() {
 }
 add_action("init", "dino_theme_disable_gutenberg");
 
-add_filter("use_block_editor_for_post", "__return_false");
-add_filter("use_block_editor_for_page", "__return_false");
+
 
 
 // === Counter-Up & Waypoints Scripts ===
